@@ -1,0 +1,18 @@
+{
+  "name": "slush-starter-kit",
+  "version": "0.2.0",
+  "description": "starter kit for building slush plugin",
+  "main": "slushfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amit Choukroune",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-template": "^3.0.0",
+    "inquirer": "^0.8.5",
+    "path": "^0.11.14"
+  },
+  "preferGlobal": "true"
+}
