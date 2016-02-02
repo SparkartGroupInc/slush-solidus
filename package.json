@@ -1,12 +1,12 @@
 {
-  "name": "slush-starter-kit",
-  "version": "0.2.0",
-  "description": "starter kit for building slush plugin",
+  "name": "slush-solidus",
+  "version": "0.1.0",
+  "description": "A slush generator for Solidus sites",
   "main": "slushfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amit Choukroune",
+  "author": "Josiah Sprague",
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.0",
