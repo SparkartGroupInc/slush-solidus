@@ -3,7 +3,8 @@ var template = require('gulp-template');
 var argv = require('minimist')(process.argv.slice(2));
 
 var options = {
-  siteName: argv.name || argv.n || 'solidus-site'
+  siteName: argv.name || 'New Solidus Site',
+  siteSlug: argv.name.toLowerCase().replace(' ', '-') || 'new-solidus-site'
 };
 
 gulp.task('default', function(done) {

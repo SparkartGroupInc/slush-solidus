@@ -1,7 +1,7 @@
 /*:
-  title: Solidus Site
-  description: No description
+  title: <%= siteName %>
+  description: <%= siteName %>
 
 /:
-  title: Solidus Site Home
-  description: No description
+  title: <%= siteSlug %> Home
+  description: <%= siteSlug %> Home

@@ -1,11 +1,12 @@
+# <%= siteName %> :star2:
+
 This site uses:
 
 - [**Solidus**][solidus] serves pages from API data and [Handlebars templates][handlebars]
 - [**gulp**][gulp] is used as a build tool for compiling CSS, JS and other assets
 - [**Storyteller.io**][storyteller] provides reliable access to APIs
 
-Development :octocat:
---------------------------------------------------------------------------------
+## Development :octocat:
 
 Please see the [Sparkart Developers' Wiki][sparkart-developers-wiki] for information about recommended workflow and tools available for Solidus site development.
 
