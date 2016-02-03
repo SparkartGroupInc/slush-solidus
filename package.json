@@ -15,5 +15,9 @@
     "minimist": "^1.2.0",
     "path": "^0.11.14"
   },
-  "preferGlobal": "true"
+  "preferGlobal": "true",
+  "keywords": [
+    "slushgenerator",
+    "solidus"
+  ]
 }
