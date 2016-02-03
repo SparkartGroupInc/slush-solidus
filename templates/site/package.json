@@ -1,0 +1,27 @@
+{
+  "name": "testsolidus",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "broadway-postinstall",
+    "build": "gulp build",
+    "test": "gulp lint",
+    "fingerprint": "gulp fingerprint",
+    "watch": "gulp watch",
+    "start": "broadway-start-solidus"
+  },
+  "engines": {
+    "node": "4.2.3",
+    "npm": "2.14.7"
+  },
+  "dependencies": {
+    "@sparkart/broadway": "^4.2.0",
+    "gulp": "^3.9.0",
+    "gulp-modernizr": "0.0.0",
+    "handlebars": "^1.3.0",
+    "hbsfy": "^2.2.1",
+    "js-yaml": "^3.5.2",
+    "solidus": "^2.3.0",
+    "solidus-metadata": "^1.0.1"
+  }
+}
