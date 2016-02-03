@@ -1,6 +1,6 @@
 {
   "name": "slush-solidus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A slush generator for Solidus sites",
   "main": "slushfile.js",
   "scripts": {
