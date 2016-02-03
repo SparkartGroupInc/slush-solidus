@@ -1,0 +1,15 @@
+/*
+All your CSS starts here!
+Use Sass/CSS imports to pull in more files.
+You can use `gulp build` to merge all these files into /assets/compiled/index.css
+*/
+
+// Remove everything below this line to get started;
+body {
+  max-width: 960px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+#cssVerification {
+  display: none;
+}

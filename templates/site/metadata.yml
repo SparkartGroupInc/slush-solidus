@@ -1,0 +1,10 @@
+# All of this site's metadata is controlled by this file
+# For more details see https://github.com/solidusjs/metadata
+
+/*:
+  title: <%= siteName %>
+  description: <%= siteName %>
+
+/:
+  title: <%= siteSlug %> Home
+  description: <%= siteSlug %> Home

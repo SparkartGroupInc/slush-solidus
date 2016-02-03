@@ -1,0 +1,7 @@
+{
+  "env": {
+    "NPM_TOKEN": {
+      "required": true
+    }
+  }
+}

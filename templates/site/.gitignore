@@ -12,6 +12,9 @@ logs
 results
 
 npm-debug.log
+node_modules
+/assets/compiled/
+/deploy/
 
 .DS_Store
-node_modules
+.sass-cache
