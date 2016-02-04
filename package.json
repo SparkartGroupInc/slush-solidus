@@ -2,6 +2,7 @@
   "name": "slush-solidus",
   "version": "0.1.2",
   "description": "A slush generator for Solidus sites",
+  "repository": "SparkartGroupInc/slush-solidus",
   "main": "slushfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
