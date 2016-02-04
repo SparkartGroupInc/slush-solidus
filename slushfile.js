@@ -4,7 +4,7 @@ var argv = require('minimist')(process.argv.slice(2));
 
 var options = {
   siteName: argv.name || 'New Solidus Site',
-  siteSlug: argv.name.toLowerCase().replace(/ /g, '-') || 'new-solidus-site'
+  siteSlug: argv.slug || argv.name.toLowerCase().replace(/ /g, '-') || 'new-solidus-site'
 };
 
 gulp.task('default', function(done) {
