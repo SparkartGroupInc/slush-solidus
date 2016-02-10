@@ -1,6 +1,6 @@
 {
   "name": "<%= siteSlug %>",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "postinstall": "broadway-postinstall",
@@ -18,8 +18,10 @@
     "@sparkart/broadway": "^4.2.0",
     "gulp": "^3.9.0",
     "gulp-modernizr": "1.0.0-alpha",
+    "imgix.js": "^2.1.0",
     "js-yaml": "^3.5.2",
     "solidus": "^2.3.0",
+    "solidus-assets-proxy": "^2.0.0",
     "solidus-metadata": "^1.0.1"
   }
 }
