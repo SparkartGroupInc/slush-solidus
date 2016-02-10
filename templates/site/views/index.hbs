@@ -1,19 +1,22 @@
 {{!
 {
   "name": "index",
-  "resources": {},
+  "resources": {
+    "wordpress": "http://wordpress.sparkart.com/wp-json/posts"
+  },
   "preprocessor": "global.js"
 }
 }}
 
 {{! Begin Placeholder Content }}
-
-<h1><%= siteName %>! <code>\o/</code></h1>
-<p>To get started, read the <a href="https://github.com/sparkartgroupinc/developers.sparkart.com/wiki">Sparkart Developers wiki</a> for detailed information about Solidus tools and best practices.</p>
-<ul>
-  <li id="cssVerification">CSS is not working!</li>
-  <li id="jsVerification">JS is not working!</li>
-</ul>
-<p>Please remove this placeholder content before getting started.</p>
-
+  <h1><%= siteName %> <code>\o/</code></h1>
+  <p>To get started, read the <a href="https://github.com/sparkartgroupinc/developers.sparkart.com/wiki">Sparkart Developers wiki</a> for detailed information about Solidus tools and best practices.</p>
+  <p><strong>Please remove this placeholder content before getting started.</strong></p>
+  <h2>Sample WordPress Resource</h2>
+  {{#each resources.wordpress}}
+    <h3>{{title}}</h3>
+    <div id="imgtest">
+      <img class="imgix-fluid" data-src="{{featured_image.source}}" alt="{{featured_image.title}}">
+    </div>
+  {{/each}}
 {{! End Placeholder Content }}
