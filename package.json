@@ -5,12 +5,13 @@
   "repository": "SparkartGroupInc/slush-solidus",
   "main": "slushfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mv templates/site/npmrc templates/site/.npmrc"
   },
   "author": "Josiah Sprague",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-template": "^3.0.0",
     "inquirer": "^0.8.5",
     "minimist": "^1.2.0",
