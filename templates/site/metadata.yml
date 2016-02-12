@@ -6,5 +6,5 @@
   description: <%= siteName %>
 
 /:
-  title: <%= siteSlug %> Home
-  description: <%= siteSlug %> Home
+  title: <%= siteName %> Home
+  description: <%= siteName %> Home

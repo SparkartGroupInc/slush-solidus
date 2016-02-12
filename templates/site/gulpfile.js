@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var modernizr = require('gulp-modernizr');
 var broadway = require('@sparkart/broadway/tasks');
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['lint', 'build', 'watch']);
 gulp.task('build', ['modernizr', 'compileJS', 'compileCSS']);
 
 gulp.task('modernizr', function () {
@@ -34,8 +34,8 @@ gulp.task('fingerprint', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('assets/styles/**/*', ['lint', 'compileCSS']);
-  gulp.watch('assets/scripts/**/*', ['lint', 'compileJS']);
+  gulp.watch('assets/styles/**/*', ['compileCSS']);
+  gulp.watch('assets/scripts/**/*', ['compileJS']);
   broadway.watch('assets/compiled/**/*');
 });
 
