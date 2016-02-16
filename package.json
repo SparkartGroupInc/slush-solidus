@@ -1,6 +1,6 @@
 {
   "name": "slush-solidus",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A slush generator for Solidus sites",
   "repository": "SparkartGroupInc/slush-solidus",
   "main": "slushfile.js",
