@@ -11,7 +11,7 @@
     "start": "broadway-start-solidus"
   },
   "engines": {
-    "node": "4.2.3",
+    "node": "4.5.0",
     "npm": "2.14.7"
   },
   "dependencies": {
